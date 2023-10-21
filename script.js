@@ -3,7 +3,7 @@ function calculateMinCost() {
 	let inputElement = document.getElementById("rope-lengths");
 	let resultElement = document.getElementById("result");
 
-	let arr = inputElement.value.split(" ");
+	let arr = inputElement.value.split(",");
 	for(let i=0 ; i<arr.length ; i++){
 		arr[i] = parseInt(arr[i]);
 	}
